@@ -1,0 +1,11 @@
+.quote__author {
+  font-size: 2rem;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+}
+
+@media screen and (max-width: 480px){
+  .quote__author {
+    font-size: 1.5rem;
+  }
+}

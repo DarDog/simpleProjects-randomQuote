@@ -1,0 +1,22 @@
+.quotes-container__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
+  text-align: center;
+  min-height: 400px;
+  padding: 0 25px;
+  color: gray;
+  border-radius: 10px;
+  background-color: #f4edea;
+  border: 10px solid #06bdc1;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 90);
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+  .quotes-container__inner {
+    width: 100%;
+  }
+}
