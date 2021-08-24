@@ -18,4 +18,6 @@ const getQuote = () => {
       })
 }
 
+getQuote();
+
 generateButton.addEventListener('click', getQuote)
